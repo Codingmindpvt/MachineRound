@@ -1,0 +1,18 @@
+LARAVEL TASK 
+Time : 6 - 7 Hours
+
+
+
+Install Laravel on server
+Create following migrations
+Users (name, email, age, dob, address, password, role, image) (admin and non-admin) only these values allowed), image
+Employee (name, age, salary, image)
+Students (First name (required), last name (not required), address)
+Create a signup form in Laravel views as per the users migration fields (Role should be a dropdown, Do not use Laravel’s default Auth Controllers and Models). Use Laravel’s validation function, using Request classes. Store profile picture in storage/app/public folder and make them accessible from public.
+Basic Laravel Auth: ability to log in as administrator and non-admin. Show different welcome messages for both roles.
+Create a Laravel resource controllers with default methods – index, create, store, show, edit, update, destroy etc. Students table data will be inserted, updated, deleted, show with this (Show students data with pagination on a view)
+Create an artisan command (php artisan fetch-data ), the data will be fetched from this API http://dummy.restapiexample.com/api/v1/employees and store into database.
+	
+
+	
+
